@@ -1,0 +1,75 @@
+/* ConsultingHeading file style css */
+.ConsultingHeading{
+    font-family: 'Poppins';
+    font-style: normal;
+    padding:80px 0px 30px 0px;
+}
+.ConsultingHeading h1{
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 81px;
+    text-align: center;
+    letter-spacing: 0.331602px;
+    color: #111416;
+    text-shadow: 0px 4px 73px rgba(0, 0, 0, 0.1);
+}
+
+.ConsultingHeading p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(0, 23, 27, 0.7);
+    text-shadow: 0px 4px 73px rgba(0, 0, 0, 0.1);
+}
+
+.ConsultingHeading span{
+    color:#1290CB;
+}
+
+/* ConsultionSlider file style css */
+.owl-theme{
+    font-family: 'Poppins';
+    font-style: normal;
+    position: relative;
+}
+.owl-theme h4{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    color: #00171B; 
+}
+
+.owl-theme p{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: rgba(0, 23, 27, 0.7);
+}
+
+.owl-theme p span{
+    font-weight: 400;
+    font-size: 22.2527px;
+    line-height: 33px;
+    color: rgba(0, 23, 27, 0.7);
+}
+
+.owl-theme .star{
+    color:#FFB30F;
+    font-size: 21.22px;
+    ;
+}
+
+.owl-nav .owl-prev{
+    font-size: 50px !important;
+    position: relative;
+    left: -50px;
+    height: 0;
+}
+
+.owl-nav .owl-next{
+    font-size: 50px !important;
+    position: relative;
+    right: -50px;
+    height:0px;
+}

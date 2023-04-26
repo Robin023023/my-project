@@ -1,0 +1,87 @@
+.FilterSkillHeading{
+    font-family: 'Poppins';
+    font-style: normal;
+    text-align: center;
+}
+
+.FilterSkillHeading h1{
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 60px;
+    color: #00171B;
+}
+
+.FilterSkillHeading span{
+  color: #1290CB;
+}
+
+.FilterSkillHeading p{
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 30px;
+    color: rgba(0, 23, 27, 0.7);
+}
+
+.FilterSkillHeading button{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #1290CB;
+    border: none;
+    margin:15px;
+}
+
+.hr{
+    margin: auto;
+    width: 850px;
+    height: 2px;
+    left: 534px;
+    top: 2001px;
+    background: rgba(0, 31, 105, 0.3);
+    opacity: 0.5;
+    margin-bottom: 50px;
+}
+
+.FilterSkillHeading .box{
+  width: 140.22px;
+  height: 157px;
+  margin: auto;
+  
+}
+
+/* button hover under-line */
+
+.FilterSkillHeading button{
+    color:rgb(24, 24, 28);
+    font-size: 1.1em;
+  }
+  .FilterSkillHeading button:hover {
+    color:blue;
+  }
+  .FilterSkillHeading button {
+    position: relative;
+  }
+
+.FilterSkillHeading button::after {
+    position: absolute;
+    bottom: -17px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #1290CB;
+    width: 0%;
+    content: "";
+    height: 4px;
+    transition: all 0.5s;
+  }
+  
+  .FilterSkillHeading button:hover::after {
+    width: 100%;
+  } 
+
+   @media screen and (max-width:768px){
+    .hr{
+      display: none;
+    }
+  } 

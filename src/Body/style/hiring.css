@@ -1,0 +1,107 @@
+/* MainHiring file style css */
+
+.MainHiring{
+    display: flex;
+    justify-content:space-around;
+    border-radius: 18px;
+    align-items: center;
+    padding:50px ;
+}
+
+/* HiringComment file style css */
+.HiringComment{
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+.HiringComment .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 15px;
+}
+.HiringComment .box img{
+    position: relative;
+    top:-35px;
+    left: -20px;
+}
+.HiringComment h4{
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 52px;
+    color: #FFFFFF;
+}
+
+.HiringComment p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 0.82);
+}
+
+.HiringComment button{
+    width: 219px;
+    height: 52px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1290CB;
+    position: relative;
+    left: 60px;
+
+}
+
+/* HiringImage file style css */
+
+.HiringImage img{
+    width: 100%;
+    height: auto;
+}
+
+
+/* MainHiring file style css */
+.MainHiring{
+    display: flex;
+    /* padding:50px 100px; */
+    align-items: center;
+    background: #1290CB;
+    margin-top: 100px;
+    height: 100%;
+}
+
+@media screen and (max-width:1100px){
+    .MainHiring{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        height:100%;
+    }
+    .HiringComment h4{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 36px;
+    }
+    .HiringComment p{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        position: relative;
+        top:10px;
+        left: -60px;
+    }
+    .HiringComment button{
+        width: 100%;
+        min-height: auto;
+        margin:20px 0px 0px -60px;
+        
+    }
+
+}
+@media screen and (max-width:514px){
+    .HiringComment .box img{
+        position: relative;
+        top:-60px;
+    }
+}

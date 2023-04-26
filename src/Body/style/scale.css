@@ -1,0 +1,75 @@
+/* ScaleComment component css */
+.ScaleComment{
+    font-family: 'Poppins';
+    font-style: normal;
+}
+.ScaleComment h1{
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 60px;
+    text-align: center;
+    color: #00171B;
+}
+.ScaleComment p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(0, 23, 27, 0.7);
+}
+
+.ScaleComment span{
+    color:#1290CB;
+}
+
+@media screen and (max-width:1200px){
+    .ScaleComment{
+      margin-top:70px ;
+    }
+}
+
+/* scale file style css */
+.scale{
+    font-family: 'Poppins';
+    font-style: normal;
+    text-align: center;
+    background: #FFFFFF;
+    border-radius: 12.5425px;
+    padding: 15px 20px;
+}
+
+.scale:hover{
+    box-shadow: 1px 1px 1px 2px rgb(233, 219, 219);
+}
+
+.scale img{
+    width: 80.6px;
+    height: 70px;
+    background-color:#E1EFFF ;
+    padding: 15px;
+    border-radius: 70px;
+}
+.scale button{
+    border: none;
+    color:blue;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+   
+}
+.scale h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #00171B;
+}
+.scale p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(0, 23, 27, 0.7);
+}
+
+

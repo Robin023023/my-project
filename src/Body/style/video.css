@@ -1,0 +1,86 @@
+/* videoData file style css */
+.VideoData{
+    font-family: 'Poppins';
+    font-style: normal;
+}
+.VideoData{
+    width: 705px;
+    height:100%;
+    background: #1290CB;
+    border-radius: 18px;
+    padding:50px;
+}
+
+.VideoData h3{
+   font-weight: 600;
+   font-size: 30px;
+   line-height: 36px;
+   color: #FFFFFF;
+}
+
+.VideoData p{
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 27px;
+   color: rgba(255, 255, 255, 0.82);
+}
+
+.VideoData img{
+    position: relative;
+    bottom: 35px;
+}
+
+.VideoData button{
+    width:219px;
+    height: 52px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #1290CB;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+@media screen and (max-width:768px){
+    .VideoData img{
+        position: relative;
+        bottom:50px;
+    }
+    .VideoData p{
+        position: relative;
+        right:60px;
+        top:15px;
+    }
+    .VideoData button{
+        width: 350px;
+        position: relative;
+        left: -60px; 
+    }
+    }
+
+/* VideoPlayer file style css */
+ .VideoPlayer{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    
+ }
+
+ @media screen and (max-width:1399px){
+    .VideoPlayer{
+        flex-direction: column-reverse;
+    }
+    .VideoData{
+        width: 590px;
+        position: relative;
+        top:-9px;
+    }
+}
+
+ /* video file style css */
+ .video iframe {
+    width:580px;
+    height: 580px;
+ }

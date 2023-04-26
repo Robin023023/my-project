@@ -1,0 +1,92 @@
+/* candidateHeading style css */
+
+.CandidatesHeading{
+    font-family: 'Poppins';
+    font-style: normal;
+    margin:80px 0px 40px 0px;
+}
+.CandidatesHeading h1{
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 60px;
+    text-align: center;
+    color: #00171B;
+}
+
+.CandidatesHeading h1 span{
+    color:#1290CB;
+}
+
+.CandidatesHeading p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(0, 23, 27, 0.7);
+}
+
+/* candidate style css */
+
+.candidate{
+    font-family: 'Poppins';
+    font-style: normal;
+    border: 1px solid #E1EFFF;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.candidate:hover{
+    box-shadow: 5px 4px 10px 2px rgb(201, 190, 190);
+}
+
+.candidate .img1{
+    height: 76px;
+    width: 106px;
+}
+
+.candidate .img2{
+   position: relative;
+   left: 20px;
+   top:-20px;
+}
+
+.candidate h3{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+.candidate:hover.candidate h3{
+    color: #1290CB;
+
+}
+
+/* button file style css */
+.Button{
+    display: flex;
+    justify-content: center;
+}
+.Button button{
+    width: 174px;
+    height: 52px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #1290CB;
+    border-radius: 6px;
+}
+
+.Button button:hover{
+    background: #0a0e0f;
+}
+
+@media screen and (max-width:1000px){
+    .Button button{
+        width: 100%;
+        min-height: auto;
+    }
+}

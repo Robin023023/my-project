@@ -1,0 +1,76 @@
+/* footer grid style css */
+
+.FooterGrid{
+    margin-top: 100px;
+}
+
+.FooterGrid .text1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #898B98; 
+}
+
+.FooterGrid h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    color: #00171B;
+    margin-left:20px;
+}
+
+.FooterGrid ul{
+    list-style: none;
+}
+
+.FooterGrid ul li a{
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 36px;
+    color: #898B98;
+}
+
+.FooterGrid .Icon{
+    height: 40px;
+    width: 42px;
+    left: 0px;
+    top: 0px;
+    padding:10px;
+    border-radius: 50px;
+    background-color: #eedcdc;
+    color: #1290CB;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* Footer file style css */
+.Footer{
+    margin-top: 50px;
+}
+
+.Footer p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #767679;
+    text-align: center;
+    background: #E1F2FA;
+}
+
+.Footer span{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    color: #1290CB;
+}

@@ -1,0 +1,125 @@
+.MainFlat{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 120px;
+    background: #1290CB;
+    border-radius: 18px;
+    height: 100%;
+    padding:90px 0px;
+}
+
+
+/* flatImage file style css */
+
+.FlatImage{
+    /* position: relative;
+    top:-23px;
+    right:-50px;  */
+    margin-top:-105px;
+}
+
+.FlatImage img{
+    width: 100%;
+    height: 100%;
+}
+
+/* flatComment file style css */
+
+.FlatComment{
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+.FlatComment span{
+    font-weight: 600;
+    font-size: 27.6637px;
+    line-height: 41px;
+    color: #FFFFFF;
+    position: relative;
+    top:5px;
+}
+
+.FlatComment h1{
+    font-weight:400;
+    font-size: 45px;
+    line-height: 68px;
+    color: #FFFFFF;
+}
+
+.FlatComment h1 span{
+    font-size: 45px;
+    font-weight:600;
+}
+
+.FlatComment p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 0.82);
+}
+
+.FlatComment button{
+    width: 219px;
+    height: 52px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #1290CB;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:767px){
+    .FlatImage{
+        margin-top: -105px;
+    }
+    .FlatComment{
+        margin-top: -30px;
+    }
+}
+
+@media screen and (max-width:410px){
+   .FlatComment{
+     margin-top:-80px;
+   }
+}
+
+@media screen and (max-width:1000px){
+    .MainFlat{
+        flex-direction: column-reverse;
+        text-align: center;
+        height:750px;
+    }
+    .FlatImage{
+        position: relative;
+        top:-25px;
+    }
+    .FlatComment{
+        position: relative;
+        top:10px;
+    }
+    .FlatComment h1{
+        font-size: 26px;
+    }
+    .FlatComment h1 span{
+        font-size: 26px;
+    }
+    .FlatComment p{
+        font-size: 15px;
+        padding: 0px 130px;
+    }
+
+    .FlatComment button{
+        width: 80%;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (min-width:1001px){
+    .FlatImage{
+        position: relative;
+        top:-5px;
+        left:-20px; 
+    }
+}

@@ -1,0 +1,60 @@
+/* CourseHeading file style css */
+.CourseHeading{
+    font-family: 'Poppins';
+    font-style: normal;
+    text-align: center;
+    margin-top: 50px;
+}
+.CourseHeading h1{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    color: #00171B;
+}
+
+.CourseHeading h1 span{
+    color: #1290CB;
+}
+
+.CourseHeading p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(0, 23, 27, 0.7);
+}
+
+/* CourseItem file style css */
+.CourseItem{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    margin:20px;
+    position: relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.2941px;
+    line-height: 24px;
+    color: rgba(0, 23, 27, 0.7);
+}
+.CourseItem:hover{
+    box-shadow: 1px 1px 10px 1px rgb(201, 139, 139);
+}
+
+.CourseItem h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #00171B;
+}
+
+.CourseItem .texts{
+    position: relative;
+    top:20px;
+    left: 30px;
+}
+
+
+

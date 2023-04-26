@@ -1,0 +1,121 @@
+/* GigHeading file style css */
+.GigHeading {
+    font-family: 'Poppins';
+    font-style: normal;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.GigHeading h1{
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 60px;
+    text-align: center;
+    color: #00171B;
+}
+
+.GigHeading h1 span{
+    color: #1290CB;
+}
+
+.GigHeading p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(0, 23, 27, 0.7);
+    margin:30px 0px 60px 0px;
+}
+
+
+/* gigSlider file style css */
+
+.owlCarousel3 {
+    font-family: 'Poppins';
+    font-style: normal;
+}
+.owlCarousel3 img{
+    width: 338px;
+    height: 379px;
+    left: 239px;
+    top: 3270.3px;
+    background: linear-gradient(360deg, #000000 0%, rgba(0, 0, 0, 0) 36.94%);
+    filter: drop-shadow(3px 3px 28px rgba(55, 55, 55, 0.08));
+    border-radius: 8px 8px 0px 0px;
+}
+
+.owlCarousel3 button{
+    width: 80px;
+    height: 35px;
+    position: relative;
+    top:60px;
+    left: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    border: none;
+    background-color: #00171B;
+    opacity: 0.7;
+    z-index: 2;
+}
+
+.owlCarousel3 h4{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 38px;
+    color: #f1e3e3;
+    margin-bottom: 30px;
+    background-color:rgba(19, 58, 65, 0.5);
+    height: 50px;
+    padding-left: 20px;
+    
+}
+
+.owlCarousel3 span{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(0, 23, 27, 0.7);
+}
+
+.owlCarousel3 p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00171BB2;
+}
+
+.owlCarousel3 .span{
+    color: #1290CB;
+}
+
+.owlCarousel3 .comment{
+    position: relative;
+    top:-50px;
+}
+
+.owlCarousel3 .button{
+    Width:174px;
+    Height:52px;
+    padding-top: 12px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-top: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width:1000px){
+    .owlCarousel3 .button{
+        width:75%;
+        min-height: auto;
+}
+
+}

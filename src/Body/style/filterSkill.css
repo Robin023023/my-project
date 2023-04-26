@@ -1,0 +1,20 @@
+.filterSkill{
+    text-align: center;
+    margin-top:40px;
+    border: 1px solid #E1EFFF;
+    border-radius: 12px;
+    padding:20px;
+    box-sizing: border-box;
+}
+
+.filterSkill p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-top:10px ;
+}
